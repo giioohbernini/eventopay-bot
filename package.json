@@ -1,0 +1,21 @@
+{
+  "name": "event-pay-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatbot"
+  ],
+  "author": "Giovanni Bernini",
+  "license": "ISC",
+  "devDependencies": {
+    "telegram-node-bot": "^4.0.5"
+  },
+  "dependencies": {
+    "node-fetch": "^1.7.2",
+    "request": "^2.81.0"
+  }
+}
