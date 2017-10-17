@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
   },
   "keywords": [
     "chatbot"
@@ -16,6 +17,7 @@
   },
   "dependencies": {
     "node-fetch": "^1.7.2",
+    "node-telegram-bot-api": "^0.28.0",
     "request": "^2.81.0"
   }
 }
